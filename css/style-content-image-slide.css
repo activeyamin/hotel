@@ -1,0 +1,77 @@
+/* Google Web Fonts CDN */
+@import url('https://fonts.googleapis.com/css?family=Inter:300,400,500,700,900&display=swap');
+
+/* FontAwesome CDN 4.7 */
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+#wellness_part a {
+    text-decoration: none;
+}
+/* Layout */
+#wellness_part section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wellness_part section article {
+    padding: 0 40px;
+}
+
+#wellness_part .heading {
+    text-align: center;
+}
+
+#wellness_part .heading span {
+    color: crimson;
+    font-size: 24px;
+}
+
+#wellness_part .heading h1 {
+    font-size: 36px;
+    margin-top: 10px;
+}
+#wellness_part .content {}
+
+#wellness_part .content>div {
+    float: left;
+    box-sizing: border-box;
+}
+
+#wellness_part .wellness_content_padd_top {
+    padding: 150px 40px;
+}
+
+#wellness_part .title {
+    border: 0;
+    padding: 15px 0;
+    border-radius: 3px;
+    cursor: pointer;
+    padding-left: 15px;
+    transition: 0.3s;
+    margin-bottom: 10px;
+}
+#wellness_part .title:hover,
+#wellness_part .title.active {
+    background-color: transparent;
+    color: #F5F0EB;
+}
+
+#wellness_part .desc {
+    display: none;
+}
+
+#wellness_part .desc.active {
+    display: block;
+}
+
+#wellness_part .image {
+    text-align: right;
+    height: 1100px;
+}
+#wellness_part .image img {
+    height: 100%;
+    width: 100%;
+    transform: translatex(0) scalex(1);
+    opacity: 1;
+    filter: blur(0);
+}
